@@ -177,7 +177,7 @@ ui <- fluidPage(
       hr(),
       h4("Andrea Conidi - 2025"),
       hr(),
-      h4("github:")
+      h4("github:https://github.com/andreaconidi/PubmedCrawler")
     ),
     
     mainPanel(
@@ -294,4 +294,5 @@ server <- function(input, output, session) {
 }
 
 # Run the app
+
 shinyApp(ui = ui, server = server)
